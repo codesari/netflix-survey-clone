@@ -1,0 +1,28 @@
+body{
+
+    text-align: center;
+
+}
+
+.container{
+
+    border: 2px solid red;
+    margin: 20px;
+
+}
+
+.inner_container{
+
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+
+}
+
+.forms{
+
+    text-align: left;
+}
