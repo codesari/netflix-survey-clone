@@ -8,7 +8,7 @@ body{
 
 .container{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     margin: 20px;
     background-color:rgba(0, 0, 0, 0.308);
@@ -36,7 +36,7 @@ body{
 
 .inner_container{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 25%;
     margin: auto;
     background-color: black;
@@ -79,6 +79,8 @@ body{
     border-radius: 50px;
     color: white;
     width: 50%;
+    /* border-style: none; */
+    
 }
 
 #p-submit{
