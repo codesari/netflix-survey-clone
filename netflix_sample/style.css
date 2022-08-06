@@ -26,3 +26,13 @@ body{
 
     text-align: left;
 }
+
+.inner_forms{
+    padding: 1rem;
+    
+}
+
+#content_type{
+
+    width: 20%;
+}
