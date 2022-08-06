@@ -11,6 +11,7 @@ body{
     border: 2px solid red;
     color: white;
     margin: 20px;
+    background-color:rgba(0, 0, 0, 0.308);
 
 }
 
@@ -19,21 +20,27 @@ body{
     
     font-size: 48px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 #flix{
 
     color:red;
 }
+#p1{
+    
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 .inner_container{
 
     border: 2px solid red;
-    width: 50%;
+    width: 25%;
     margin: auto;
     background-color: black;
-    
-    padding: 3rem;
+    padding: 2rem;
 
 }
 
@@ -56,4 +63,24 @@ body{
     resize: none;
     color:black;
     
+}
+
+.kutu{
+    width: 90%;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+#submit{
+
+    
+    padding: 1rem;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    width: 50%;
+}
+
+#p-submit{
+    text-align: center;
 }

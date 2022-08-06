@@ -13,7 +13,7 @@
     <div class="container">
 
         <h1 id="head1">NET<span id="flix">FLIX</span></h1>
-        <p>Thank you for signing up at Netflix.Tell us more about yourself</p>
+        <p id="p1">Thank you for signing up at Netflix.Tell us more about yourself</p>
         <div class="inner_container">
 
         <div class="forms">
@@ -21,14 +21,15 @@
 
             
             <p><label for="name">Name</label></p>
-            <input  type="text" name="name" id="name"><br>
+            <input class="kutu" type="text" name="name" id="name" placeholder="Enter your name"><br>
             
             <p><label for="age">Age</label></p>
-            <input type="number" name="age" id="age"><br>
+            <input class="kutu" type="number" name="age" id="age" placeholder="Age"><br>
        
             <p><label for="email">Email</label></p>
-            <input type="email" name="email" id="email"><br>
+            <input class="kutu" type="email" name="email" id="email" placeholder="Enter your email"><br>
            
+            
             <p><label for="content_type">Content Type</label></p>
             <select name="selected_content" id="content_type">
               
@@ -37,8 +38,7 @@
                 <option value="Sitcom">Sitcom</option>
 
             </select>
-        
-
+    
         
             <p>Movie Type</p>
             <input type="checkbox" name="movie_type" id="comedy">
@@ -58,9 +58,9 @@
             <label for="other">Other</label><br>
     
             <p>Feedback</p>
-            <textarea name="" id="comments" cols="30" rows="10" placeholder="Any comments.."></textarea><br>
+            <textarea class="kutu" name="" id="comments" cols="30" rows="10" placeholder="Any comments.."></textarea><br>
         
-            <p><input id="submit" type="submit" value="Submit"></p>
+            <p id="p-submit"><input id="submit" type="submit" value="Submit"></p>
         
 
 
