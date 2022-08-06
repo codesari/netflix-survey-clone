@@ -1,12 +1,15 @@
 body{
 
     text-align: center;
+    background-image: url(./img/background_image.jpg);
 
 }
 
 .container{
 
     border: 2px solid red;
+    color: white;
+
     margin: 20px;
 
 }
@@ -17,7 +20,7 @@ body{
     width: 50%;
     margin: auto;
     background-color: black;
-    color: white;
+    
     padding: 3rem;
 
 }
