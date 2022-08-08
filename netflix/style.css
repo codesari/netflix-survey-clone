@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* paddinglerin patlamasını engelliyor */
+}
+
+body{
+
+    background-image: url(./img/bg.png);
+}
