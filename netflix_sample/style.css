@@ -14,7 +14,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
+    /* iç konteynırda aşağı doğru taşma olduğu zaman bu kod işe yarıyor */
     height: 100vh;
 
 }
@@ -26,7 +27,7 @@ body{
     margin: auto;
     background-color:rgba(0, 0, 0, 0.3);
     width: 1240px;
-    height: 1036px;
+    /* height: 1036px; */
     margin-top: 30px;
 
 }
@@ -81,18 +82,23 @@ body{
     margin-top: 40px;
 }
 
-#submit{
+.input-box{
 
-    
-    padding: 1rem;
-    background-color: red;
-    border-radius: 50px;
-    color: white;
-    width: 50%;
-    /* border-style: none; */
-    
+    margin-top: 10px;
 }
 
-#p-submit{
-    text-align: center;
+.div-submit{
+
+    width: 160px;
+    /* buradaki width değerini margin auto için verdik.width in burada hiç bir etkisi yok aslında. */
+    margin: auto;
+    margin-top: 10px;
+}
+
+#submit{
+
+    width: 160px;
+    height: 45px;
+    
+    
 }
