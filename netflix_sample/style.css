@@ -14,6 +14,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
 
 }
 
@@ -54,10 +56,10 @@ body{
 
     /* border: 2px solid red; */
     width: 500px;
-    height: 897px;
+    /* height: 897px; */
     margin: auto;
-    background-color: black;
-    padding: 2rem;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding: 30px 40px;
 
 }
 
@@ -66,26 +68,17 @@ body{
     text-align: left;
 }
 
-.inner_forms{
-    padding: 1rem;
-    
+#name,#age,#email,#content_type,#comments {
+
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+
 }
 
-#content_type{
+#checkbox,#radio {
 
-    width: 20%;
-}
-
-#comments{
-    resize: none;
-    color:black;
-    
-}
-
-.kutu{
-    width: 90%;
-    margin: auto;
-    padding: 0.5rem;
+    margin-top: 40px;
 }
 
 #submit{
