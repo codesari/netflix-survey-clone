@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bowlby+One+SC&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
 
     text-align: center;
     background-image: url(./img/background_image.jpg);
-    /* font-weight: bolder; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -10,17 +21,21 @@ body{
 
     /* border: 2px solid red; */
     color: white;
-    margin: 20px;
-    background-color:rgba(0, 0, 0, 0.308);
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.3);
+    width: 1240px;
+    height: 1036px;
+    margin-top: 30px;
 
 }
 
 #head1{
 
     
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 400;
     margin-bottom: 0;
+    font-family: 'Bowlby One SC', cursive;
 }
 
 #flix{
@@ -32,12 +47,14 @@ body{
     margin-top: 0;
     font-weight: bold;
     font-size: 18px;
+    font-family: 'Sorts Mill Goudy', serif;
 }
 
 .inner_container{
 
     /* border: 2px solid red; */
-    width: 25%;
+    width: 500px;
+    height: 897px;
     margin: auto;
     background-color: black;
     padding: 2rem;
