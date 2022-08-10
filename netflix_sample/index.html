@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
@@ -16,75 +18,83 @@
         <p id="p1">Thank you for signing up at Netflix.Tell us more about yourself</p>
         <div class="inner_container">
 
-        <div class="forms">
-            <form id="inner_forms" action="result.html">
+            <div class="forms">
+                <form id="inner_forms" action="result.html">
 
-            
-            <p><label for="name">Name</label></p>
-            <input class="kutu" type="text" name="name" id="name" placeholder="Enter your name"><br>
-            
-            <p><label for="age">Age</label></p>
-            <input class="kutu" type="number" name="age" id="age" placeholder="Age"><br>
-       
-            <p><label for="email">Email</label></p>
-            <input class="kutu" type="email" name="email" id="email" placeholder="Enter your email"><br>
-           
-            
-            <p><label for="content_type">Content Type</label></p>
-            <select name="selected_content" id="content_type">
-              
-                <option value="Series">Series</option>
-                <option value="Movies">Movies</option>
-                <option value="Sitcom">Sitcom</option>
+                    <div class="input-box">
+                        <p><label for="name">Name</label></p>
+                        <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+                    </div>
 
-            </select>
-    
-        
-            <p>Movie Type</p>
-            <input type="checkbox" name="movie_type" id="comedy" value="comedy">
-            <label for="comedy">Comedy</label><br>
-            <input type="checkbox" name="movie_type" id="action" value="action">
-            <label for="action">Action</label><br>
-            <input type="checkbox" name="movie_type" id="romance" value="romance">
-            <label for="romance">Romance</label><br>
-       
-            
-            <p>Gender</p>
-            <input type="radio" name="gender" id="male" value="male">
-            <label for="male">Male</label><br>
-            <input type="radio" name="gender" id="female" value="female">
-            <label for="female">Female</label><br>
-            <input type="radio" name="gender" id="other" value="other">
-            <label for="other">Other</label><br>
-    
+                    <div class="input-box">
+                        <p><label for="age">Age</label></p>
+                        <input type="number" name="age" id="age" placeholder="Age"><br>
+                    </div>
+
+                    <div class="input-box">
+                        <p><label for="email">Email</label></p>
+                        <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+                    </div>
+
+
+                    <div class="input-box">p><label for="content_type">Content Type</label></p>
+                        <select name="selected_content" id="content_type">
+
+                            <option value="Series">Series</option>
+                            <option value="Movies">Movies</option>
+                            <option value="Sitcom">Sitcom</option>
+
+                        </select>
+                    </div>
+                    < <div id="checkbox">
+                        <p>Movie Type</p>
+                        <input type="checkbox" name="movie_type" id="comedy" value="comedy">
+                        <label for="comedy">Comedy</label><br>
+                        <input type="checkbox" name="movie_type" id="action" value="action">
+                        <label for="action">Action</label><br>
+                        <input type="checkbox" name="movie_type" id="romance" value="romance">
+                        <label for="romance">Romance</label><br>
+            </div>
+
+
+            <div id="radio">
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label><br>
+            </div>
+
             <p>Feedback</p>
-            <textarea class="kutu" name="yorum" id="comments" cols="30" rows="10" placeholder="Any comments.."></textarea><br>
-        
+            <textarea name="yorum" id="comments" cols="30" rows="10" placeholder="Any comments.."></textarea><br>
+
             <p id="p-submit"><input id="submit" type="submit" value="Submit"></p>
-        
 
 
-            
 
 
-            
-            
-            
-
-                
 
 
-            
-            
-
-                
-            
-        
 
 
-            
 
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -92,11 +102,12 @@
             </form>
         </div>
 
-        </div>
+    </div>
 
 
 
     </div>
-    
+
 </body>
+
 </html>
