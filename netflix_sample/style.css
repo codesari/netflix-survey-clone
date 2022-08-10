@@ -93,12 +93,23 @@ body{
     /* buradaki width değerini margin auto için verdik.width in burada hiç bir etkisi yok aslında. */
     margin: auto;
     margin-top: 10px;
+    
+    
 }
 
 #submit{
 
     width: 160px;
     height: 45px;
-    
-    
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;  
+}
+
+#submit:hover{
+
+    background-color: white;
+    color: red;
 }
